@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог</title>
+    <link rel="stylesheet" href="css/main.css?v=7">
+    <link rel="icon" href="https://remarkproduction.net/favicon.png" type="image/png">
+    <link rel="icon" type="image/ico" href="img/favicon.svg" sizes="16x16">
+  </head>
+  <body>
+    <header class="header">
+      <div class="wrapper">
+        <div class="header__row"><a class="header__logo" href="/"><img data-src="img/logo.png" srcset="img/logo@2x.png" alt=""/></a>
+          <nav class="header__nav"><a class="header__nav-link" href="/">Главная</a><a class="header__nav-link" href="/catalog.html">Каталог</a><a class="header__nav-link" href="/services.html">Услуги</a><a class="header__nav-link" href="/other.html">Другое</a><a class="header__nav-link" href="/portfolio.html">Портфолио</a><a class="header__nav-link" href="/order.html">Заказать</a><a class="header__nav-link" href="/about.html">О нас</a>
+          </nav><a class="header__phone" href="tel:8 (4852) 67-07-98">8 (4852) 67-07-98</a>
+        </div>
+      </div>
+    </header>
+    <div class="page">
+      <section class="hero" style="background-image: url(img/hero-catalog.jpg)">
+        <div class="wrapper">
+          <h1 class="hero__title">Каталог лестниц</h1>
+          <div class="hero__actions">
+            <button class="btn btn_big btn_catalog hero__btn"><span class="btn__inner"><span class="btn__text">Скачать каталог в PDF</span></span></button><a class="hero__link" href="other.html">Комплектующие для лестниц
+              <svg>
+                <use xlink:href="sprites/sprite-mono.svg#link-arrow"></use>
+              </svg></a>
+          </div>
+          <div class="hero__features">
+            <div class="hero__feature">
+              <div class="hero__feature-icon"><img data-src="img/hero-feature-1.png" srcset="img/hero-feature-1@2x.png" alt="" width="59px" height="62px"/>
+              </div><span class="hero__feature-text">Низкая стоимость за счёт автоматизированных систем, что снижает затраты на производство</span>
+            </div>
+            <div class="hero__feature">
+              <div class="hero__feature-icon"><img data-src="img/hero-feature-2.png" srcset="img/hero-feature-2@2x.png" alt="" width="64px" height="44px"/>
+              </div><span class="hero__feature-text">120+ моделей дверей в&nbsp;наличии&nbsp;на складе</span>
+            </div>
+            <div class="hero__feature">
+              <div class="hero__feature-icon"><img data-src="img/hero-feature-3.png" srcset="img/hero-feature-3@2x.png" alt="" width="68px" height="802px"/>
+              </div><span class="hero__feature-text">Предоставляем беспроцентную рассрочку на&nbsp;срок от&nbsp;6 до&nbsp;12&nbsp; месяцев!*</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section_dark">
+        <div class="wrapper">
+          <div class="section__heading">
+            <h2 class="section__title">Наша продукция</h2>
+            <p class="section__subtitle">Воспользуйтесь фильтром</p>
+          </div>
+          <div class="section__content">
+            <div class="catalog">
+              <div class="catalog__filter">
+                <div class="tabs">
+                  <div class="tabs__row">
+                    <button class="tabs__btn tabs__btn_active" data-tab-link="#">Из дерева</button>
+                    <button class="tabs__btn" data-tab-link="#">На металлическом каркасе</button>
+                    <button class="tabs__btn" data-tab-link="#">Чердачные лестницы</button>
+                  </div>
+                </div>
+                <div class="catalog__checkboxes">
+                  <label class="checkbox catalog__checkbox">
+                    <input type="checkbox" name="catalog_category" value="Из сосны" hidden="hidden"/><span class="checkbox__icon">
+                      <svg>
+                        <use xlink:href="sprites/sprite-mono.svg#checkbox"></use>
+                      </svg></span><span class="checkbox__label">Из сосны</span>
+                  </label>
+                  <label class="checkbox catalog__checkbox">
+                    <input type="checkbox" name="catalog_category" value="Из бука" hidden="hidden"/><span class="checkbox__icon">
+                      <svg>
+                        <use xlink:href="sprites/sprite-mono.svg#checkbox"></use>
+                      </svg></span><span class="checkbox__label">Из бука</span>
+                  </label>
+                  <label class="checkbox catalog__checkbox">
+                    <input type="checkbox" name="catalog_category" value="Из бука, дуба и ясеня" hidden="hidden"/><span class="checkbox__icon">
+                      <svg>
+                        <use xlink:href="sprites/sprite-mono.svg#checkbox"></use>
+                      </svg></span><span class="checkbox__label">Из бука, дуба и ясеня</span>
+                  </label>
+                  <label class="checkbox catalog__checkbox">
+                    <input type="checkbox" name="catalog_category" value="Чердачные" hidden="hidden"/><span class="checkbox__icon">
+                      <svg>
+                        <use xlink:href="sprites/sprite-mono.svg#checkbox"></use>
+                      </svg></span><span class="checkbox__label">Чердачные</span>
+                  </label>
+                  <label class="checkbox catalog__checkbox">
+                    <input type="checkbox" name="catalog_category" value="Винтовые" hidden="hidden"/><span class="checkbox__icon">
+                      <svg>
+                        <use xlink:href="sprites/sprite-mono.svg#checkbox"></use>
+                      </svg></span><span class="checkbox__label">Винтовые</span>
+                  </label>
+                  <label class="checkbox catalog__checkbox">
+                    <input type="checkbox" name="catalog_category" value="Для дачи" hidden="hidden"/><span class="checkbox__icon">
+                      <svg>
+                        <use xlink:href="sprites/sprite-mono.svg#checkbox"></use>
+                      </svg></span><span class="checkbox__label">Для дачи</span>
+                  </label>
+                </div>
+                <div class="catalog__from-to">
+                  <div class="from-to">
+                    <div class="from-to__row">
+                      <div class="from-to__item">
+                        <div class="from-to__label">От</div>
+                        <input class="from-to__input js-from-to-input" type="number" name="filter_min" value="0" min="0"/>
+                        <div class="from-to__placeholder js-from-to-placeholder">руб</div>
+                      </div>
+                      <div class="from-to__item">
+                        <div class="from-to__label">До</div>
+                        <input class="from-to__input js-from-to-input" type="number" name="filter_max" value="65000" maxn="65000"/>
+                        <div class="from-to__placeholder js-from-to-placeholder">руб</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="catalog__row">
+                <div class="catalog-card catalog__card">
+                  <div class="catalog-card__img"><img data-src="img/upload/catalog-7.jpg" alt=""/>
+                  </div>
+                  <div class="catalog-card__info">
+                    <h3 class="catalog-card__title">Название товара</h3>
+                    <div class="catalog-card__price">28.900 руб</div>
+                    <div class="catalog-card__old-price">43.900 руб</div><a class="catalog-card__link" href="#">Подробнее</a>
+                  </div>
+                </div>
+                <div class="catalog-card catalog__card">
+                  <div class="catalog-card__img"><img data-src="img/upload/catalog-8.jpg" alt=""/>
+                  </div>
+                  <div class="catalog-card__info">
+                    <h3 class="catalog-card__title">Название товара</h3>
+                    <div class="catalog-card__price">28.900 руб</div>
+                    <div class="catalog-card__old-price">43.900 руб</div><a class="catalog-card__link" href="#">Подробнее</a>
+                  </div>
+                </div>
+                <div class="catalog-card catalog__card">
+                  <div class="catalog-card__img"><img data-src="img/upload/catalog-9.jpg" alt=""/>
+                  </div>
+                  <div class="catalog-card__info">
+                    <h3 class="catalog-card__title">Название товара</h3>
+                    <div class="catalog-card__price">28.900 руб</div>
+                    <div class="catalog-card__old-price">43.900 руб</div><a class="catalog-card__link" href="#">Подробнее</a>
+                  </div>
+                </div>
+                <div class="catalog-card catalog__card">
+                  <div class="catalog-card__img"><img data-src="img/upload/catalog-10.jpg" alt=""/>
+                  </div>
+                  <div class="catalog-card__info">
+                    <h3 class="catalog-card__title">Название товара</h3>
+                    <div class="catalog-card__price">28.900 руб</div>
+                    <div class="catalog-card__old-price">43.900 руб</div><a class="catalog-card__link" href="#">Подробнее</a>
+                  </div>
+                </div>
+              </div>
+              <a class="btn btn_big catalog__btn" href="#"><span class="btn__inner"><span class="btn__text">Загрузить ещё</span></span></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section_dark">
+        <div class="wrapper">
+          <div class="callback">
+            <div class="callback__card">
+              <h2 class="callback__title"><b>Не смогли выбрать лестницу?</b></h2>
+              <p class="callback__subtitle">Бесплатно прокосультируем вас по&nbsp;всем возникшим вопросам</p>
+              <form class="callback__form" action="form.php" method="POST">
+                <label class="input callback__input"><span class="input__label"></span>
+                  <div class="input__inner">
+                    <input class="input__fluid js-form-input" type="text" name="Имя" placeholder="Введите ваше имя"/>
+                  </div>
+                </label>
+                <label class="input callback__input"><span class="input__label"></span>
+                  <div class="input__inner">
+                    <input class="input__fluid js-form-input" type="tel" name="Телефон" placeholder="+7 (___) ___ -__-__"/>
+                  </div>
+                </label>
+                <div class="callback__hint">Перезвоним в течении 15&nbsp;минут</div>
+                <button class="btn btn_big callback__btn"><span class="btn__inner"><span class="btn__text">Заказать звонок</span>
+                    <svg>
+                      <use xlink:href="sprites/sprite-mono.svg#ring"></use>
+                    </svg></span></button>
+              </form>
+              <div class="callback__privacy">Нажимая на кнопку вы соглашаетесь с&nbsp;условиями <a href="/privacy" taget="_blank">Политики конфиденциальности</a></div>
+            </div><img class="callback__visual callback__visual_2" data-src="img/callback-2.png" alt=""/>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="wrapper">
+          <div class="section__heading">
+            <h2 class="section__title"><b>Контакты</b></h2>
+          </div>
+          <div class="section__content">
+            <div class="contacts">
+              <div class="contacts__row">
+                <div class="contacts__info">
+                  <div class="contacts__item">
+                    <div class="contacts__item-label">Телефон</div><a class="contacts__item-text" href="tel:8 (4852) 67-07-98">8 (4852) 67-07-98</a>
+                  </div>
+                  <div class="contacts__item">
+                    <div class="contacts__item-label">E-mail</div><a class="contacts__item-text" href="mailto:gornica.yr76@yandex.ru">gornica.yr76@yandex.ru</a>
+                  </div>
+                  <div class="contacts__item">
+                    <div class="contacts__item-label">Адреc</div>
+                    <div class="contacts__item-text">г.&nbsp;Ярославль ул.&nbsp;Магистральная&nbsp;дом&nbsp;7</div>
+                  </div>
+                  <div class="contacts__item">
+                    <div class="contacts__item-label">Время работы</div>
+                    <div class="contacts__item-text">Пн-Пт: 9:00-17:00</div>
+                    <div class="contacts__item-text">Сб: 10:00-16:00</div>
+                    <div class="contacts__item-text">Вс: Выходной</div>
+                  </div>
+                  <div class="contacts__item">
+                    <div class="contacts__item-label">Для быстрой связи с&nbsp;нами</div>
+                    <div class="contacts__item-social"></div>
+                  </div>
+                  <div class="social-links">
+                    <div class="social-links__row"><a class="social-links__item social-links__item_vk" href="https://vk.com/id504788328" target="_blank">
+                        <svg>
+                          <use xlink:href="sprites/sprite-mono.svg#vk"></use>
+                        </svg></a><a class="social-links__item social-links__item_wa" href="https://wa.me/79301108149/" target="_blank">
+                        <svg>
+                          <use xlink:href="sprites/sprite-mono.svg#whatsapp"></use>
+                        </svg></a><a class="social-links__item social-links__item_ok" href="https://ok.ru/profile/562363252726" target="_blank">
+                        <svg>
+                          <use xlink:href="sprites/sprite-mono.svg#odnoklassniki"></use>
+                        </svg></a></div>
+                  </div>
+                </div>
+                <div class="contacts__panorama js-panorama" id="panorama"><img data-src="img/contacts.jpg" alt=""/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer class="footer">
+      <div class="wrapper">
+        <div class="footer__main">
+          <div class="footer__row">
+            <div class="footer__col"><a class="footer__logo" href="/"><img data-src="img/logo.png" srcset="img/logo@2x.png" alt=""/></a></div>
+            <div class="footer__col">
+              <div class="footer__nav">
+                <h3 class="footer__nav-title">Меню сайта</h3>
+                <nav class="footer__nav-menu"><a class="footer__nav-link" href="/">Главная</a><a class="footer__nav-link" href="/catalog.html">Каталог</a><a class="footer__nav-link" href="/services.html">Услуги</a><a class="footer__nav-link" href="/other.html">Другое</a><a class="footer__nav-link" href="/portfolio.html">Портфолио</a><a class="footer__nav-link" href="/order.html">Заказать</a><a class="footer__nav-link" href="/about.html">О нас</a>
+                </nav>
+              </div>
+            </div>
+            <div class="footer__col">
+              <a class="btn btn_medium footer__btn js-get-modal" href="#callbackModal"><span class="btn__inner"><span class="btn__text">Заказать звонок</span>
+                  <svg>
+                    <use xlink:href="sprites/sprite-mono.svg#ring"></use>
+                  </svg></span></a><a class="footer__phone" href="tel:8 (4852) 67-07-98">8 (4852) 67-07-98</a>
+              <div class="footer__social">
+                <div class="footer__social-row">
+                  <div class="footer__social-title">Для быстрой связи с нами:</div>
+                  <div class="footer__social-links">
+                    <div class="social-links">
+                      <div class="social-links__row"><a class="social-links__item social-links__item_vk" href="https://vk.com/id504788328" target="_blank">
+                          <svg>
+                            <use xlink:href="sprites/sprite-mono.svg#vk"></use>
+                          </svg></a><a class="social-links__item social-links__item_wa" href="https://wa.me/79301108149/" target="_blank">
+                          <svg>
+                            <use xlink:href="sprites/sprite-mono.svg#whatsapp"></use>
+                          </svg></a><a class="social-links__item social-links__item_ok" href="https://ok.ru/profile/562363252726" target="_blank">
+                          <svg>
+                            <use xlink:href="sprites/sprite-mono.svg#odnoklassniki"></use>
+                          </svg></a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <div class="footer__row">
+            <div class="footer__col">
+              <div class="footer__reserved">Все права защищены 2022</div>
+            </div>
+            <div class="footer__col">
+              <div class="footer__developers">
+                <div class="footer__developers-title">Сайт разработан:</div><a class="footer__developers-link" href="https://vk.com/irshatdesign" target="_blank">Дизайн — Иршат Зайнуллин</a><a class="footer__developers-link" href="https://vk.com/twixer554" target="_blank">Программирование — Никита Таланов</a>
+              </div>
+            </div>
+            <div class="footer__col"><a class="footer__privacy" href="/privacy" target="_blank">Политика конфиденциальности</a></div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="modal mfp-hide" id="callbackModal">
+      <h1 class="modal__title"><b>Заполните форму&nbsp;ниже</b></h1>
+      <p class="modal__subtitle">Мы перезвоним вам в&nbsp;течение 15&nbsp;минут</p>
+      <form class="modal__form" action="form.php" method="POST">
+        <label class="input modal__input"><span class="input__label"></span>
+          <div class="input__inner">
+            <input class="input__fluid js-form-input" type="text" name="Имя" placeholder="Введите ваше имя"/>
+          </div>
+        </label>
+        <label class="input modal__input"><span class="input__label"></span>
+          <div class="input__inner">
+            <input class="input__fluid js-form-input" type="tel" name="Телефон" placeholder="+7 (___) ___ -__-__"/>
+          </div>
+        </label>
+        <div class="modal__hint">Перезвоним в течении 15&nbsp;минут</div>
+        <button class="btn btn_big modal__btn"><span class="btn__inner"><span class="btn__text">Заказать звонок</span>
+            <svg>
+              <use xlink:href="sprites/sprite-mono.svg#fingerprint"></use>
+            </svg></span></button>
+      </form>
+      <div class="modal__privacy">Нажимая на кнопку вы соглашаетесь с&nbsp;условиями <a href="/privacy" taget="_blank">Политики конфиденциальности</a></div>
+    </div>
+    <script src="js/index.js?v=7"></script>
+  </body>
+</html>
