@@ -81,7 +81,7 @@
           </div>
         </div>
       </section>
-      <section class="section">
+      <section class="section" style="background-image: url(img/contacts-bg.jpg)">
         <div class="wrapper">
           <div class="section__heading">
             <h2 class="section__title"><b>Контакты</b></h2>
@@ -123,7 +123,8 @@
                         </svg></a></div>
                   </div>
                 </div>
-                <div class="contacts__panorama js-panorama" id="panorama"><img data-src="img/contacts.jpg" alt=""/>
+                <div class="contacts__panorama">
+                  <div class="contacts__panorama-container js-panorama"></div>
                 </div>
               </div>
             </div>
@@ -201,6 +202,28 @@
         </label>
         <div class="modal__hint">Перезвоним в течении 15&nbsp;минут</div>
         <button class="btn btn_big modal__btn"><span class="btn__inner"><span class="btn__text">Заказать звонок</span>
+            <svg>
+              <use xlink:href="sprites/sprite-mono.svg#fingerprint"></use>
+            </svg></span></button>
+      </form>
+      <div class="modal__privacy">Нажимая на кнопку вы соглашаетесь с&nbsp;условиями <a href="/privacy" taget="_blank">Политики конфиденциальности</a></div>
+    </div>
+    <div class="modal mfp-hide" id="orderModal">
+      <h1 class="modal__title"><b>Заполните форму&nbsp;ниже</b></h1>
+      <p class="modal__subtitle">Мы перезвоним вам в&nbsp;течение 15&nbsp;минут</p>
+      <form class="modal__form" action="form.php" method="POST">
+        <label class="input modal__input"><span class="input__label"></span>
+          <div class="input__inner">
+            <input class="input__fluid js-form-input" type="text" name="Имя" placeholder="Введите ваше имя"/>
+          </div>
+        </label>
+        <label class="input modal__input"><span class="input__label"></span>
+          <div class="input__inner">
+            <input class="input__fluid js-form-input" type="tel" name="Телефон" placeholder="+7 (___) ___ -__-__"/>
+          </div>
+        </label>
+        <div class="modal__hint">Перезвоним в течении 15&nbsp;минут</div>
+        <button class="btn btn_big modal__btn"><span class="btn__inner"><span class="btn__text">Оставить заявку</span>
             <svg>
               <use xlink:href="sprites/sprite-mono.svg#fingerprint"></use>
             </svg></span></button>
