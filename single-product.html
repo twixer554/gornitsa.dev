@@ -13,8 +13,9 @@
     <header class="header">
       <div class="wrapper">
         <div class="header__row"><a class="header__logo" href="/"><img data-src="img/logo.png" srcset="img/logo@2x.png" alt=""/></a>
-          <nav class="header__nav"><a class="header__nav-link" href="/">Главная</a><a class="header__nav-link" href="/catalog.html">Каталог</a><a class="header__nav-link" href="/services.html">Услуги</a><a class="header__nav-link" href="/other.html">Другое</a><a class="header__nav-link" href="/portfolio.html">Портфолио</a><a class="header__nav-link" href="/order.html">Заказать</a><a class="header__nav-link" href="/about.html">О нас</a>
+          <nav class="header__nav"><a class="header__nav-link" href="/">Главная</a><a class="header__nav-link" href="/catalog.html">Каталог</a><a class="header__nav-link" href="/services.html">Услуги</a><a class="header__nav-link" href="/other.html">Другое</a><a class="header__nav-link" href="/portfolio.html">Портфолио</a><a class="header__nav-link" href="/about.html">О нас</a>
           </nav><a class="header__phone" href="tel:8 (4852) 67-07-98">8 (4852) 67-07-98</a>
+          <button class="header__burger js-menu-toggler"><span></span></button>
         </div>
       </div>
     </header>
@@ -48,21 +49,21 @@
       <section class="section">
         <div class="wrapper">
           <div class="section__heading">
-            <h2 class="section__title">Варинаты моделей</h2>
+            <h2 class="section__title">Варианты моделей</h2>
           </div>
           <div class="section__content">
             <div class="product-variants">
               <div class="product-variants__tabs">
                 <div class="tabs">
                   <div class="tabs__row">
-                    <button class="tabs__btn tabs__btn_active" data-tab-link="#">Модель 1</button>
-                    <button class="tabs__btn" data-tab-link="#">Модель 2</button>
-                    <button class="tabs__btn" data-tab-link="#">Модель 3</button>
-                    <button class="tabs__btn" data-tab-link="#">Модель 4</button>
-                    <button class="tabs__btn" data-tab-link="#">Модель 5</button>
-                    <button class="tabs__btn" data-tab-link="#">Модель 6</button>
-                    <button class="tabs__btn" data-tab-link="#">Модель 7</button>
-                    <button class="tabs__btn" data-tab-link="#">Модель 8</button>
+                    <button class="tabs__btn tabs__btn_active" data-tab-link="#">Вариант 1</button>
+                    <button class="tabs__btn" data-tab-link="#">Вариант 2</button>
+                    <button class="tabs__btn" data-tab-link="#">Вариант 3</button>
+                    <button class="tabs__btn" data-tab-link="#">Вариант 4</button>
+                    <button class="tabs__btn" data-tab-link="#">Вариант 5</button>
+                    <button class="tabs__btn" data-tab-link="#">Вариант 6</button>
+                    <button class="tabs__btn" data-tab-link="#">Вариант 7</button>
+                    <button class="tabs__btn" data-tab-link="#">Вариант 8</button>
                   </div>
                 </div>
               </div>
@@ -97,15 +98,15 @@
       <div class="wrapper">
         <div class="footer__main">
           <div class="footer__row">
-            <div class="footer__col"><a class="footer__logo" href="/"><img data-src="img/logo.png" srcset="img/logo@2x.png" alt=""/></a></div>
-            <div class="footer__col">
+            <div class="footer__col footer__col_logo"><a class="footer__logo" href="/"><img data-src="img/logo.png" srcset="img/logo@2x.png" alt=""/></a></div>
+            <div class="footer__col footer__col_nav">
               <div class="footer__nav">
                 <h3 class="footer__nav-title">Меню сайта</h3>
-                <nav class="footer__nav-menu"><a class="footer__nav-link" href="/">Главная</a><a class="footer__nav-link" href="/catalog.html">Каталог</a><a class="footer__nav-link" href="/services.html">Услуги</a><a class="footer__nav-link" href="/other.html">Другое</a><a class="footer__nav-link" href="/portfolio.html">Портфолио</a><a class="footer__nav-link" href="/order.html">Заказать</a><a class="footer__nav-link" href="/about.html">О нас</a>
+                <nav class="footer__nav-menu"><a class="footer__nav-link" href="/">Главная</a><a class="footer__nav-link" href="/catalog.html">Каталог</a><a class="footer__nav-link" href="/services.html">Услуги</a><a class="footer__nav-link" href="/other.html">Другое</a><a class="footer__nav-link" href="/portfolio.html">Портфолио</a><a class="footer__nav-link" href="/about.html">О нас</a>
                 </nav>
               </div>
             </div>
-            <div class="footer__col">
+            <div class="footer__col footer__col_contacts">
               <a class="btn btn_medium footer__btn js-get-modal" href="#callbackModal"><span class="btn__inner"><span class="btn__text">Заказать звонок</span>
                   <svg>
                     <use xlink:href="sprites/sprite-mono.svg#ring"></use>
@@ -134,15 +135,15 @@
         </div>
         <div class="footer__bottom">
           <div class="footer__row">
-            <div class="footer__col">
+            <div class="footer__col footer__col_reserved">
               <div class="footer__reserved">Все права защищены 2022</div>
             </div>
-            <div class="footer__col">
+            <div class="footer__col footer__col_developers">
               <div class="footer__developers">
                 <div class="footer__developers-title">Сайт разработан:</div><a class="footer__developers-link" href="https://vk.com/irshatdesign" target="_blank">Дизайн — Иршат Зайнуллин</a><a class="footer__developers-link" href="https://vk.com/twixer554" target="_blank">Программирование — Никита Таланов</a>
               </div>
             </div>
-            <div class="footer__col"><a class="footer__privacy" href="/privacy" target="_blank">Политика конфиденциальности</a></div>
+            <div class="footer__col footer__col_privacy"><a class="footer__privacy" href="/privacy" target="_blank">Политика конфиденциальности</a></div>
           </div>
         </div>
       </div>

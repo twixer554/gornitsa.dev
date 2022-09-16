@@ -9,17 +9,85 @@
     <link rel="icon" href="https://remarkproduction.net/favicon.png" type="image/png">
     <link rel="icon" type="image/ico" href="img/favicon.svg" sizes="16x16">
   </head>
-  <body>
+  <body class="small-hero">
     <header class="header">
       <div class="wrapper">
         <div class="header__row"><a class="header__logo" href="/"><img data-src="img/logo.png" srcset="img/logo@2x.png" alt=""/></a>
-          <nav class="header__nav"><a class="header__nav-link" href="/">Главная</a><a class="header__nav-link" href="/catalog.html">Каталог</a><a class="header__nav-link" href="/services.html">Услуги</a><a class="header__nav-link" href="/other.html">Другое</a><a class="header__nav-link" href="/portfolio.html">Портфолио</a><a class="header__nav-link" href="/order.html">Заказать</a><a class="header__nav-link" href="/about.html">О нас</a>
+          <nav class="header__nav"><a class="header__nav-link" href="/">Главная</a><a class="header__nav-link" href="/catalog.html">Каталог</a><a class="header__nav-link" href="/services.html">Услуги</a><a class="header__nav-link" href="/other.html">Другое</a><a class="header__nav-link" href="/portfolio.html">Портфолио</a><a class="header__nav-link" href="/about.html">О нас</a>
           </nav><a class="header__phone" href="tel:8 (4852) 67-07-98">8 (4852) 67-07-98</a>
+          <button class="header__burger js-menu-toggler"><span></span></button>
         </div>
       </div>
     </header>
     <div class="page">
-      <section class="section" style="background-image: url(img/contacts-bg.jpg)">
+      <section class="hero" data-bg="img/hero-portfolio.jpg" data-mobile-bg="img/hero-portfolio-xs.jpg">
+        <div class="wrapper">
+          <h1 class="hero__title">Примеры лестниц наших клиентов</h1>
+        </div>
+      </section>
+      <section class="section section_dark">
+        <div class="wrapper">
+          <div class="section__heading">
+            <h2 class="section__title"><b>Посмотрите примеры</b> <br>у&nbsp;наших покупателей</h2>
+          </div>
+          <div class="section__content">
+            <div class="projects">
+              <div class="projects__slider">
+                <div class="project-slider">
+                  <div class="js-project-slider">
+                    <div class="project-slider__item"><img src="img/upload/project-1.jpg" alt=""/>
+                      <h3 class="project-slider__item-name">Название проекта</h3><a class="project-slider__item-link js-project-get-more" href="#" data-project-name="Название проекта" data-project-info="Эта лестница выполнена из двух пород дерева: береза и хвоя. Она с разворотными ступенями из березы, а подступенники, система ограждения - из хвои. По заказу клиента заглушки на крепеж сделали контрастными, получилось стильно" data-project-img="img/upload/project-1.jpg">Подробнее</a>
+                    </div>
+                    <div class="project-slider__item"><img src="img/upload/project-2.jpg" alt=""/>
+                      <h3 class="project-slider__item-name">Название проекта</h3><a class="project-slider__item-link js-project-get-more" href="#" data-project-name="Название проекта" data-project-info="Лестница из хвои, с подступенками, с поворотом на 90 градусов, «с калошниками» по стене. Покрашена в белую эмаль - RAL 9001, установка -2 дня, стоимость полностью 170 тыс руб Ярославская область" data-project-img="img/upload/project-2.jpg">Подробнее</a>
+                    </div>
+                    <div class="project-slider__item"><img src="img/upload/project-3.jpg" alt=""/>
+                      <h3 class="project-slider__item-name">Название проекта</h3><a class="project-slider__item-link js-project-get-more" href="#" data-project-name="Название проекта" data-project-info="Обшивка металлического каркаса от Заказчика. Ступени - бук, покрашены в лак. Подступенки - из хвои, покраска  белая эмаль. Стоимость 140 тыс руб" data-project-img="img/upload/project-3.jpg">Подробнее</a>
+                    </div>
+                    <div class="project-slider__item"><img src="img/upload/project-4.jpg" alt=""/>
+                      <h3 class="project-slider__item-name">Название проекта</h3><a class="project-slider__item-link js-project-get-more" href="#" data-project-name="Название проекта" data-project-info="Облицовка металлического каркаса от заказчика. Материал ступеней лиственница, остальные элементы – М Д Ф . Ступени покрашены бесцветным воском. МДФ покрашен в эмаль  цвет графит, ограждение - 3-х ригельная нержавеющая сталь. Под лестницей организовано тех помещение, установлены 2 открывающиеся дверцы и 1 съёмная. Срок выполнения работ- 1 мес, стоимость 214000 руб" data-project-img="img/upload/project-4.jpg">Подробнее</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section_dark">
+        <div class="wrapper">
+          <div class="section__heading">
+            <h2 class="section__title"><b>Отзывы</b> наших клиентов</h2>
+          </div>
+          <div class="section__content">
+            <div class="reviews">
+              <div class="reviews__slider">
+                <div class="reviews-slider">
+                  <div class="js-reviews-slider">
+                    <div class="reviews-slider__item"><img src="img/upload/reviews-default.jpg" alt=""/>
+                      <h3 class="reviews-slider__item-name">Ярослав Левин</h3>
+                      <p class="reviews-slider__item-text">Заказывали трансфер из аэропорта до отеля Башкирия. Поездка безупречна. Водитель очень пунктуален, готов оказать любую помощь в поездке. Очень рекомендуем сервис!</p>
+                    </div>
+                    <div class="reviews-slider__item"><img src="img/upload/reviews-default.jpg" alt=""/>
+                      <h3 class="reviews-slider__item-name">Владимир Сафонов  </h3>
+                      <p class="reviews-slider__item-text">Несколько раз пользовалась услугой трансфера из аэропорта и осталась полностью доволена. Спасибо.</p>
+                    </div>
+                    <div class="reviews-slider__item"><img src="img/upload/reviews-default.jpg" alt=""/>
+                      <h3 class="reviews-slider__item-name">Полина Захарова</h3>
+                      <p class="reviews-slider__item-text">Впервые обратились в эту компанию и не разочаровались. Всё хорошо! Буду и дальше пользоваться их услугами. Спасибо!</p>
+                    </div>
+                    <div class="reviews-slider__item"><img src="img/upload/reviews-default.jpg" alt=""/>
+                      <h3 class="reviews-slider__item-name">Полина Захарова</h3>
+                      <p class="reviews-slider__item-text">Впервые обратились в эту компанию и не разочаровались. Всё хорошо! Буду и дальше пользоваться их услугами. Спасибо!</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section" data-bg="img/contacts-bg.jpg">
         <div class="wrapper">
           <div class="section__heading">
             <h2 class="section__title"><b>Контакты</b></h2>
@@ -74,15 +142,15 @@
       <div class="wrapper">
         <div class="footer__main">
           <div class="footer__row">
-            <div class="footer__col"><a class="footer__logo" href="/"><img data-src="img/logo.png" srcset="img/logo@2x.png" alt=""/></a></div>
-            <div class="footer__col">
+            <div class="footer__col footer__col_logo"><a class="footer__logo" href="/"><img data-src="img/logo.png" srcset="img/logo@2x.png" alt=""/></a></div>
+            <div class="footer__col footer__col_nav">
               <div class="footer__nav">
                 <h3 class="footer__nav-title">Меню сайта</h3>
-                <nav class="footer__nav-menu"><a class="footer__nav-link" href="/">Главная</a><a class="footer__nav-link" href="/catalog.html">Каталог</a><a class="footer__nav-link" href="/services.html">Услуги</a><a class="footer__nav-link" href="/other.html">Другое</a><a class="footer__nav-link" href="/portfolio.html">Портфолио</a><a class="footer__nav-link" href="/order.html">Заказать</a><a class="footer__nav-link" href="/about.html">О нас</a>
+                <nav class="footer__nav-menu"><a class="footer__nav-link" href="/">Главная</a><a class="footer__nav-link" href="/catalog.html">Каталог</a><a class="footer__nav-link" href="/services.html">Услуги</a><a class="footer__nav-link" href="/other.html">Другое</a><a class="footer__nav-link" href="/portfolio.html">Портфолио</a><a class="footer__nav-link" href="/about.html">О нас</a>
                 </nav>
               </div>
             </div>
-            <div class="footer__col">
+            <div class="footer__col footer__col_contacts">
               <a class="btn btn_medium footer__btn js-get-modal" href="#callbackModal"><span class="btn__inner"><span class="btn__text">Заказать звонок</span>
                   <svg>
                     <use xlink:href="sprites/sprite-mono.svg#ring"></use>
@@ -111,15 +179,15 @@
         </div>
         <div class="footer__bottom">
           <div class="footer__row">
-            <div class="footer__col">
+            <div class="footer__col footer__col_reserved">
               <div class="footer__reserved">Все права защищены 2022</div>
             </div>
-            <div class="footer__col">
+            <div class="footer__col footer__col_developers">
               <div class="footer__developers">
                 <div class="footer__developers-title">Сайт разработан:</div><a class="footer__developers-link" href="https://vk.com/irshatdesign" target="_blank">Дизайн — Иршат Зайнуллин</a><a class="footer__developers-link" href="https://vk.com/twixer554" target="_blank">Программирование — Никита Таланов</a>
               </div>
             </div>
-            <div class="footer__col"><a class="footer__privacy" href="/privacy" target="_blank">Политика конфиденциальности</a></div>
+            <div class="footer__col footer__col_privacy"><a class="footer__privacy" href="/privacy" target="_blank">Политика конфиденциальности</a></div>
           </div>
         </div>
       </div>
