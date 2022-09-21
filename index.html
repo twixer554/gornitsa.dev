@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Главная</title>
-    <link rel="stylesheet" href="css/main.css?v=7">
+    <link rel="stylesheet" href="css/main.css?v=8">
     <link rel="icon" href="https://remarkproduction.net/favicon.png" type="image/png">
     <link rel="icon" type="image/ico" href="img/favicon.svg" sizes="16x16">
   </head>
@@ -13,7 +13,7 @@
     <header class="header">
       <div class="wrapper">
         <div class="header__row"><a class="header__logo" href="/"><img data-src="img/logo.png" srcset="img/logo@2x.png" alt=""/></a>
-          <nav class="header__nav"><a class="header__nav-link" href="/">Главная</a><a class="header__nav-link" href="/catalog.html">Каталог</a><a class="header__nav-link" href="/services.html">Услуги</a><a class="header__nav-link" href="/other.html">Другое</a><a class="header__nav-link" href="/portfolio.html">Портфолио</a><a class="header__nav-link" href="/about.html">О нас</a>
+          <nav class="header__nav js-mobile-menu"><a class="header__nav-link" href="/">Главная</a><a class="header__nav-link" href="/catalog.html">Каталог</a><a class="header__nav-link" href="/services.html">Услуги</a><a class="header__nav-link" href="/other.html">Другое</a><a class="header__nav-link" href="/portfolio.html">Портфолио</a><a class="header__nav-link" href="/about.html">О нас</a>
           </nav><a class="header__phone" href="tel:8 (4852) 67-07-98">8 (4852) 67-07-98</a>
           <button class="header__burger js-menu-toggler"><span></span></button>
         </div>
@@ -147,6 +147,52 @@
               </div>
               <div class="tac">
                 <a class="btn btn_big catalog__btn" href="/catalog.html"><span class="btn__inner"><span class="btn__text">Посмотреть все лестницы</span></span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="wrapper">
+          <div class="section__heading">
+            <h2 class="section__title">Этапы работы</h2>
+          </div>
+          <div class="section__content">
+            <div class="steps">
+              <div class="steps__row">
+                <div class="steps__item">
+                  <div class="steps__icon"><img data-src="img/step-1.png" srcset="img/step-1@2x.png" alt=""/>
+                  </div>
+                  <h3 class="steps__title">1. Выезд специалиста на&nbsp;обьект для&nbsp;замеров</h3>
+                </div>
+                <div class="steps__item">
+                  <div class="steps__icon"><img data-src="img/step-2.png" srcset="img/step-2@2x.png" alt=""/>
+                  </div>
+                  <h3 class="steps__title">2. Разработка проекта <br>лестницы</h3>
+                </div>
+                <div class="steps__item">
+                  <div class="steps__icon" style="left: 4%"><img data-src="img/step-3.png" srcset="img/step-3@2x.png" alt="" style="width:116%;"/>
+                  </div>
+                  <h3 class="steps__title">3. Расчет стоимости <br>лестницы</h3>
+                </div>
+                <div class="steps__item">
+                  <div class="steps__icon"><img data-src="img/step-4.png" srcset="img/step-4@2x.png" alt=""/>
+                  </div>
+                  <h3 class="steps__title">4. Заключение договора и&nbsp;внесение предоплаты</h3>
+                </div>
+                <div class="steps__item">
+                  <div class="steps__icon"><img data-src="img/step-5.png" srcset="img/step-5@2x.png" alt=""/>
+                  </div>
+                  <h3 class="steps__title">5. Производство лестницы, покраска элементов лестницы</h3>
+                </div>
+                <div class="steps__item">
+                  <div class="steps__icon"><img data-src="img/step-6.png" srcset="img/step-6@2x.png" alt=""/>
+                  </div>
+                  <h3 class="steps__title">6. Доставка и монтаж</h3>
+                </div>
+              </div>
+              <div class="tac">
+                <a class="btn btn_big steps__btn" href="/catalog.html"><span class="btn__inner"><span class="btn__text">Перейти в каталог</span></span></a>
               </div>
             </div>
           </div>
@@ -292,21 +338,53 @@
               <div class="reviews__slider">
                 <div class="reviews-slider">
                   <div class="js-reviews-slider">
-                    <div class="reviews-slider__item"><img src="img/upload/reviews-default.jpg" alt=""/>
-                      <h3 class="reviews-slider__item-name">Ярослав Левин</h3>
-                      <p class="reviews-slider__item-text">Заказывали трансфер из аэропорта до отеля Башкирия. Поездка безупречна. Водитель очень пунктуален, готов оказать любую помощь в поездке. Очень рекомендуем сервис!</p>
+                    <div class="reviews-slider__item">
+                      <div class="reviews-slider__item-heading"><img src="img/reviews-default.jpg" alt=""/>
+                        <h3 class="reviews-slider__item-name">Полина Широкова</h3>
+                      </div>
+                      <p class="reviews-slider__item-text">Здравствуйте! Заказывала лестницу в магазине Горница. Осталась довольна абсолютно всем. Лестницу привезли установили и покрасили точно в оговорённые сроки. Никаких нареканий по работе не было, все быстро, четко и по делу. А главное прозрачно, без лишних сумм и доплат</p>
                     </div>
-                    <div class="reviews-slider__item"><img src="img/upload/reviews-default.jpg" alt=""/>
-                      <h3 class="reviews-slider__item-name">Владимир Сафонов  </h3>
-                      <p class="reviews-slider__item-text">Несколько раз пользовалась услугой трансфера из аэропорта и осталась полностью доволена. Спасибо.</p>
+                    <div class="reviews-slider__item">
+                      <div class="reviews-slider__item-heading"><img src="img/reviews-default.jpg" alt=""/>
+                        <h3 class="reviews-slider__item-name">Татьяна</h3>
+                      </div>
+                      <p class="reviews-slider__item-text">Мы с мужем заказывали лестницу в небольшой загородный дом, она была винтовой, но из дерева. Не сказала бы что вышло дорого, вполне адекватно по цене. По срокам – 10 дней. Все поставлено и служит нам уже 2 месяца.</p>
                     </div>
-                    <div class="reviews-slider__item"><img src="img/upload/reviews-default.jpg" alt=""/>
-                      <h3 class="reviews-slider__item-name">Полина Захарова</h3>
-                      <p class="reviews-slider__item-text">Впервые обратились в эту компанию и не разочаровались. Всё хорошо! Буду и дальше пользоваться их услугами. Спасибо!</p>
+                    <div class="reviews-slider__item">
+                      <div class="reviews-slider__item-heading"><img src="img/reviews-default.jpg" alt=""/>
+                        <h3 class="reviews-slider__item-name">Полина Захарова</h3>
+                      </div>
+                      <p class="reviews-slider__item-text">Заказывали у вас лестницу на дачу – отличная работа! Все сделано качественно и быстро, всем рекомендую! Отдельное спасибо за консультацию менеджера – сотрудник помог подобрать нам отличную модель лестницы, которая превосходно вписалась в интерьер!</p>
                     </div>
-                    <div class="reviews-slider__item"><img src="img/upload/reviews-default.jpg" alt=""/>
-                      <h3 class="reviews-slider__item-name">Полина Захарова</h3>
-                      <p class="reviews-slider__item-text">Впервые обратились в эту компанию и не разочаровались. Всё хорошо! Буду и дальше пользоваться их услугами. Спасибо!</p>
+                    <div class="reviews-slider__item">
+                      <div class="reviews-slider__item-heading"><img src="img/reviews-default.jpg" alt=""/>
+                        <h3 class="reviews-slider__item-name">Денис Смирнов</h3>
+                      </div>
+                      <p class="reviews-slider__item-text">Большое спасибо! Буду обязательно рекомендовать вас друзьям! Ваша бригада собрала мне отличную лестницу! Отдельное спасибо менеджеру и вашим проектировщикам за кропотливый труд! Ваша компания – настоящие профессионалы, а ваши специалисты на деле доказывают свою квалификацию.</p>
+                    </div>
+                    <div class="reviews-slider__item">
+                      <div class="reviews-slider__item-heading"><img src="img/reviews-default.jpg" alt=""/>
+                        <h3 class="reviews-slider__item-name">Вадим Зайнуллин</h3>
+                      </div>
+                      <p class="reviews-slider__item-text">Обращался к вам по совету друга – вы ему собрали отличную лестницу на металлокаркасе. Вот недавно обрадовали и меня – отличный проект, качественная сборка. Пользуемся лестницей уже несколько месяцев, претензий никаких! Отличная древесина, хорошая обработка материала и надежное крепление заготовок!</p>
+                    </div>
+                    <div class="reviews-slider__item">
+                      <div class="reviews-slider__item-heading"><img src="img/reviews-default.jpg" alt=""/>
+                        <h3 class="reviews-slider__item-name">Илья</h3>
+                      </div>
+                      <p class="reviews-slider__item-text">Заказали лестницу в компании Гостница. Как инженер не имею претензий к конструкции. Супруга довольна внешним видом. В целом молодцы. Если бы не задержка со сроком поставки, то мог бы поставить высший балл. Но если попросят порекомендовать компанию, смогу порекомендовать, стыдно не будет.</p>
+                    </div>
+                    <div class="reviews-slider__item">
+                      <div class="reviews-slider__item-heading"><img src="img/reviews-default.jpg" alt=""/>
+                        <h3 class="reviews-slider__item-name">Владимир</h3>
+                      </div>
+                      <p class="reviews-slider__item-text">Заказывал лестницу в декабре — а в начале февраля уже установили и всего на 1 день позже срока по договору. Прошло полтора месяца — лестница стоит как влитая, ни скрипа ни качания не наблюдаем… Спасибо большое!!!</p>
+                    </div>
+                    <div class="reviews-slider__item">
+                      <div class="reviews-slider__item-heading"><img src="img/reviews-default.jpg" alt=""/>
+                        <h3 class="reviews-slider__item-name">Мария Мальцева</h3>
+                      </div>
+                      <p class="reviews-slider__item-text">Мы с супругой заказали лестницу в ТЦ «Русская деревня» и не ошиблись с выбором.Лестница довольно сложной конфигурации,в простом магазине такую не купишь.Сделали в срок, очень качественно,учли все наши пожелания и помогли подобрать подходящее дерево. Лестницей мы очень довольны.</p>
                     </div>
                   </div>
                 </div>
@@ -571,6 +649,6 @@
       </form>
       <div class="modal__privacy">Нажимая на кнопку вы соглашаетесь с&nbsp;условиями <a href="/privacy" taget="_blank">Политики конфиденциальности</a></div>
     </div>
-    <script src="js/index.js?v=7"></script>
+    <script src="js/index.js?v=8"></script>
   </body>
 </html>

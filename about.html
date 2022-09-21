@@ -5,21 +5,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>О нас</title>
-    <link rel="stylesheet" href="css/main.css?v=7">
+    <link rel="stylesheet" href="css/main.css?v=8">
     <link rel="icon" href="https://remarkproduction.net/favicon.png" type="image/png">
     <link rel="icon" type="image/ico" href="img/favicon.svg" sizes="16x16">
   </head>
-  <body>
+  <body class="small-hero">
     <header class="header">
       <div class="wrapper">
         <div class="header__row"><a class="header__logo" href="/"><img data-src="img/logo.png" srcset="img/logo@2x.png" alt=""/></a>
-          <nav class="header__nav"><a class="header__nav-link" href="/">Главная</a><a class="header__nav-link" href="/catalog.html">Каталог</a><a class="header__nav-link" href="/services.html">Услуги</a><a class="header__nav-link" href="/other.html">Другое</a><a class="header__nav-link" href="/portfolio.html">Портфолио</a><a class="header__nav-link" href="/about.html">О нас</a>
+          <nav class="header__nav js-mobile-menu"><a class="header__nav-link" href="/">Главная</a><a class="header__nav-link" href="/catalog.html">Каталог</a><a class="header__nav-link" href="/services.html">Услуги</a><a class="header__nav-link" href="/other.html">Другое</a><a class="header__nav-link" href="/portfolio.html">Портфолио</a><a class="header__nav-link" href="/about.html">О нас</a>
           </nav><a class="header__phone" href="tel:8 (4852) 67-07-98">8 (4852) 67-07-98</a>
           <button class="header__burger js-menu-toggler"><span></span></button>
         </div>
       </div>
     </header>
     <div class="page">
+      <section class="hero" data-bg="img/hero-about.jpg" data-mobile-bg="img/hero-about-xs.jpg">
+        <div class="wrapper">
+          <h1 class="hero__title">О компании <br>«Горница»</h1>
+        </div>
+      </section>
+      <section class="section section_dark">
+        <div class="wrapper">
+          <div class="section__content">
+            <div class="about">
+              <div class="about__row">
+                <div class="about__cnt">
+                  <h2>Компания «Горница» один из <br><b>ведущих произодителей</b> лестниц</h2>
+                  <p>Более чем 10-летний опыт присутствия на рынке, позволил нам получить бесценный практический опыт. В своей деятельности мы сталкивались с задачами разной сложности, а общее количество выполненных нами заказов исчисляется сотнями. С 2017 года с нами работает компания «Горница», которая занимается профессиональной покраской изделий из дерева, используя только экологически чистые растительные природные ингредиенты. Наша компания работает для клиента и в интересах клиента, а потому каждый сотрудник нацелен на обеспечение идеального результата своей работы. Любой этап сотрудничества, начиная от замеров и заканчивая монтажом готовых изделий, всегда проходит в точном соответствии заключённым договорённостям и ожиданиям клиента.</p>
+                  <div class="about__features">
+                    <div class="about__feature">
+                      <div class="about__feature-icon"><img data-src="img/about-feature-1.png" srcset="img/about-feature-1@2x.png" alt="" width="83px" height="113px"/>
+                      </div>
+                      <div class="about__feature-text"><b>10+</b> лет <br>компания <br>на&nbsp;рынке</div>
+                    </div>
+                    <div class="about__feature">
+                      <div class="about__feature-icon"><img data-src="img/about-feature-2.png" srcset="img/about-feature-2@2x.png" alt="" width="86px" height="97px"/>
+                      </div>
+                      <div class="about__feature-text">Мы работаем <br><b>по&nbsp;договору, <br>с&nbsp;гарантией</b></div>
+                    </div>
+                    <div class="about__feature">
+                      <div class="about__feature-icon"><img data-src="img/about-feature-3.png" srcset="img/about-feature-3@2x.png" alt="" width="100px" height="97px"/>
+                      </div>
+                      <div class="about__feature-text"><b>Являемся <br>официальными <br>дилерами</b> завода <br>ТМ&nbsp;«Profi&Hobby»</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="about__visual"><img data-src="img/about-visual.png" alt=""/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section_dark">
+        <div class="wrapper">
+          <div class="section__heading">
+            <h2 class="section__title"><b>Посмотрите видео</b> о&nbsp;компании «Горница»</h2>
+          </div>
+          <div class="section__content">
+            <div class="video">
+              <div class="video__tv">
+                <div class="video__frame">
+                  <iframe src="https://www.youtube.com/embed/IF7wzgDbG-s" frameborder="0"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <section class="section" data-bg="img/contacts-bg.jpg">
         <div class="wrapper">
           <div class="section__heading">
@@ -169,6 +223,6 @@
       </form>
       <div class="modal__privacy">Нажимая на кнопку вы соглашаетесь с&nbsp;условиями <a href="/privacy" taget="_blank">Политики конфиденциальности</a></div>
     </div>
-    <script src="js/index.js?v=7"></script>
+    <script src="js/index.js?v=8"></script>
   </body>
 </html>
